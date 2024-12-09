@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>FastFind360 - Pitch Deck</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../dist/reveal.css">
+    <link rel="stylesheet" href="../dist/theme/black.css" id="theme">
+    <link rel="stylesheet" href="../plugin/highlight/monokai.css">
+    <style>
+        .reveal section img {
+            border: none;
+            box-shadow: none;
+        }
+        .metrics {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+        .metric-item {
+            background: rgba(255,255,255,0.1);
+            padding: 20px;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="reveal">
+        <div class="slides">
+            <!-- Title Slide -->
+            <section data-auto-animate>
+                <h1>FastFind360</h1>
+                <h3>Revolutionizing Product Discovery</h3>
+                <p>Through Advanced Technology & Innovation</p>
+            </section>
+
+            <!-- Problem Statement -->
+            <section data-auto-animate>
+                <h2>The Problem</h2>
+                <div class="metrics">
+                    <div class="metric-item" data-id="metric1">
+                        <h3>73%</h3>
+                        <p>Abandon searches due to irrelevant results</p>
+                    </div>
+                    <div class="metric-item" data-id="metric2">
+                        <h3>2.5hrs</h3>
+                        <p>Average time spent comparing prices</p>
+                    </div>
+                    <div class="metric-item" data-id="metric3">
+                        <h3>$4.6B</h3>
+                        <p>Annual losses due to poor discovery</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Solution -->
+            <section data-auto-animate>
+                <h2>Our Solution</h2>
+                <div data-id="solution-features">
+                    <ul>
+                        <li class="fragment">AI-Powered Search Engine</li>
+                        <li class="fragment">Real-time Price Comparison</li>
+                        <li class="fragment">360° Product Visualization</li>
+                        <li class="fragment">Blockchain-Secured Transactions</li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- Market Size -->
+            <section data-auto-animate>
+                <h2>Market Opportunity</h2>
+                <div class="market-size">
+                    <div class="fragment" data-fragment-index="1">
+                        <h3>TAM: $4.2T</h3>
+                        <p>Global E-commerce Market</p>
+                    </div>
+                    <div class="fragment" data-fragment-index="2">
+                        <h3>SAM: $820B</h3>
+                        <p>Product Search Market</p>
+                    </div>
+                    <div class="fragment" data-fragment-index="3">
+                        <h3>SOM: $41B</h3>
+                        <p>Initial Target Market</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Technology Stack -->
+            <section data-auto-animate>
+                <h2>Technology Stack</h2>
+                <pre data-id="code"><code class="hljs" data-trim>
+                    FastFind360 Architecture
+                    ├── Frontend Layer
+                    │   ├── React.js
+                    │   └── Next.js
+                    ├── AI Engine
+                    │   ├── TensorFlow
+                    │   └── PyTorch
+                    ├── Blockchain Security
+                    │   └── Ethereum Smart Contracts
+                    └── Analytics Engine
+                        └── Real-time Processing
+                </code></pre>
+            </section>
+
+            <!-- Business Model -->
+            <section data-auto-animate>
+                <h2>Business Model</h2>
+                <div class="revenue-streams fragment">
+                    <h3>Revenue Streams</h3>
+                    <ul>
+                        <li>Subscription Plans: $12M (Y1)</li>
+                        <li>Commission on Sales: $8M (Y1)</li>
+                        <li>Premium Features: $5M (Y1)</li>
+                    </ul>
+                    <p class="fragment">68% Gross Margin</p>
+                </div>
+            </section>
+
+            <!-- Team -->
+            <section data-auto-animate>
+                <h2>Our Team</h2>
+                <div class="team-grid">
+                    <div class="team-member fragment">
+                        <h3>Sarah Chen</h3>
+                        <p>CEO, Ex-Google</p>
+                    </div>
+                    <div class="team-member fragment">
+                        <h3>Alex Rodriguez</h3>
+                        <p>CTO, Ex-Amazon</p>
+                    </div>
+                    <div class="team-member fragment">
+                        <h3>Maya Patel</h3>
+                        <p>Head of Product, Ex-Shopify</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Investment Ask -->
+            <section data-auto-animate>
+                <h2>Investment Ask</h2>
+                <div class="investment-details">
+                    <h3>$10M Series A</h3>
+                    <div class="use-of-funds fragment">
+                        <p>Technology Development: 40%</p>
+                        <p>Marketing & Growth: 30%</p>
+                        <p>Team Expansion: 20%</p>
+                        <p>Operations: 10%</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Call to Action -->
+            <section data-auto-animate>
+                <h2>Join Us in Revolutionizing</h2>
+                <h3>Product Discovery</h3>
+                <p class="fragment">Contact: sarah.chen@fastfind360.com</p>
+            </section>
+        </div>
+    </div>
+
+    <script src="../dist/reveal.js"></script>
+    <script src="../plugin/highlight/highlight.js"></script>
+    <script>
+        Reveal.initialize({
+            center: true,
+            hash: true,
+            plugins: [ RevealHighlight ],
+            transition: 'slide',
+            autoAnimate: true,
+            autoAnimateEasing: 'ease-out',
+            autoAnimateDuration: 0.8,
+            autoAnimateUnmatched: false
+        });
+    </script>
+</body>
+</html> 
