@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d0887578.css",
+    "main.js": "/static/js/main.998162e8.js",
+    "static/media/mixed-use.png": "/static/media/mixed-use.fe15ae37d4824357a076.png",
+    "static/media/residential.png": "/static/media/residential.e6cf6d8cb27f56290c8e.png",
+    "static/media/commercial.png": "/static/media/commercial.d4eda67619467a3100ee.png",
+    "static/media/land.png": "/static/media/land.49d95e9d2592e844bda6.png",
+    "static/media/industrial.png": "/static/media/industrial.05e0ccf14ce431204cde.png",
+    "static/media/luxury.png": "/static/media/luxury.d73467159148b16230d8.png",
+    "static/media/hotels.png": "/static/media/hotels.b924f52871712df1c02b.png",
+    "static/media/institutional.png": "/static/media/institutional.d06174c93e0d3d8ae6d6.png",
+    "static/media/image2.jpg": "/static/media/image2.98b35eb01a1e854cba4d.jpg",
+    "static/media/image1.jpg": "/static/media/image1.3adc7883f219f1d597c7.jpg",
+    "static/media/image3.jpg": "/static/media/image3.c0e0e4fd7c8edfd6a69e.jpg",
+    "static/media/logo-white.png": "/static/media/logo-white.f4550cdcd8e74d80dc89.png",
+    "static/media/logo.png": "/static/media/logo.686bd6cfb0cecb96e995.png",
+    "static/media/app-mockup.png": "/static/media/app-mockup.e0f4b343f81e10dd7d53.png",
+    "index.html": "/index.html",
+    "main.d0887578.css.map": "/static/css/main.d0887578.css.map",
+    "main.998162e8.js.map": "/static/js/main.998162e8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d0887578.css",
+    "static/js/main.998162e8.js"
+  ]
+}
